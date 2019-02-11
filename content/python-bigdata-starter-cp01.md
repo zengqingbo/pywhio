@@ -3,7 +3,7 @@ title: "Python BigData Starter CP01"
 cover: "5.jpg"
 category: "python"
 date: "2019-02-11"
-slug: "python-bigdata-starter-cp02"
+slug: "python-bigdata-starter-cp01"
 tags:
 ---
 
