@@ -175,11 +175,9 @@ with open(dist, 'w', newline='', encoding="gbk") as distfile
 2，生成CSV的表头行数据
 
 ```python
- if header == [] and len(csv_rows)>0:
-
-​                header = csv_rows[0]
-
-​                csvwriter.writerow(header)
+if header == [] and len(csv_rows)>0:
+	header = csv_rows[0]
+	csvwriter.writerow(header)
 ```
 
    
