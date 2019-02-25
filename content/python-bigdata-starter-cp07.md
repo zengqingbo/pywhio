@@ -37,7 +37,7 @@ tags:
 
    接下来，我们看看期望生成的XML文件的结构说明。
 
-![7-1 XML 组成结构](python 大数据 chapter7.assets/7-1 XML 组成结构.png)
+![7-1 XML 组成结构](/assets/python-bigdata-starter/cp07/7-1 XML 组成结构.png)
 
 ​                        图7-1 XML 组成结构
 
@@ -73,7 +73,7 @@ location_attribute = '{%s}noNameSpaceSchemaLocation' % NS
 
 https://stackoverflow.com/questions/863183/python-adding-namespaces-in-lxml
 
-![7-2 XML name SPACE](python 大数据 chapter7.assets/7-2 XML name SPACE.png)
+![7-2 XML name SPACE](/assets/python-bigdata-starter/cp07/7-2 XML name SPACE.png)
 
 核心的NS 配置代码
 
@@ -99,7 +99,7 @@ https://stackoverflow.com/questions/863183/python-adding-namespaces-in-lxml
 
 File header 是1个XML文件中需要的一个配置信息， 本案例中的信息结构，是从一个外部的excel 文件中导入的，信息结构见下图：
 
-![7-3 XML header](python 大数据 chapter7.assets/7-3 XML header.png)
+![7-3 XML header](/assets/python-bigdata-starter/cp07/7-3 XML header.png)
 
 利用pandas组件，会读取相关的信息结构，读取的语句为：
 
@@ -173,7 +173,7 @@ Fileheader={‘QLR2019020710-001.csv’:{‘informationmodelreference’：’ba
 
    这里使用了一个enumerate(csv_rows[0] , 1) 函数，他是一个很有特点的迭代函数，他可以返回序号。因为这里我们想从list中取出每一个元素，一般会使用 for i in list[],  他会取list[] 中的每一项给i, 执行一个循环操作，但是他没有标号，程序没法知道取得元素的标号，也就是第几个，所以使用enumerate 函数，这样应用程序可以取得元素，同时得到元素的标号，这里标号就是第一个参数K，这样就可以知道N标签中的i属性，也就是第几个就能够知道，也就是后续用于为i属性进行赋值，也就是标号1，2,3,4 等。
 
-![7-4 生成ticket name](python 大数据 chapter7.assets/7-4 生成ticket name.png)
+![7-4 生成ticket name](/assets/python-bigdata-starter/cp07/7-4 生成ticket name.png)
 
    经过赋值操作以后，就可以很方便的生成ticket name。
 
@@ -183,7 +183,7 @@ Fileheader={‘QLR2019020710-001.csv’:{‘informationmodelreference’：’ba
 
 接下来构造数据，也就是从CSV的第二行开始。 Ticket 的结构见下图：
 
-![4-11XML 树形结构20190215](python 大数据 chapter7.assets/4-11XML 树形结构20190215.png)
+![4-11XML 树形结构20190215](/assets/python-bigdata-starter/cp07/4-11XML 树形结构20190215.png)
 
 
 
@@ -221,7 +221,7 @@ TicketData = ET.SubElement(Measurements, "TicketData")
 
 5，开始创建V标签， 根据每一行的内容，创建多个子标签，其中的序号，来自enumerate(v , 1)中返回的l， 而对应的值来自其中返回的w。
 
-​        ![7-5 生成ticket data](python 大数据 chapter7.assets/7-5 生成ticket data.png)
+​        ![7-5 生成ticket data](/assets/python-bigdata-starter/cp07/7-5 生成ticket data.png)
 
 ​     经过上面的操作，就可以生成相关的树形结构。
 
