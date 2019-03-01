@@ -4,6 +4,8 @@ logs
 *.log
 npm-debug.log*
 
+.DS_Store
+
 # Runtime data
 pids
 *.pid
@@ -51,7 +53,7 @@ jspm_packages
 # Build Files
 public/
 .cache/
-.DS_Store
+
 
 # Gatsby context
 .gatsby-context.js
