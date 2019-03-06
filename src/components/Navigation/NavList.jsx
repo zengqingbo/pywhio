@@ -14,7 +14,7 @@ function GetNavList(config) {
       primaryText: "SQLAlchemyDoc",
       leftIcon: <FontIcon iconClassName="fa fa-book" />,
       component: Link,
-      to: "/"
+      to: "/sqlalchemy"
     },
     {
       divider: true
