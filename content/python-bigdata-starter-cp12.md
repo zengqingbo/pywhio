@@ -153,7 +153,7 @@ tcp   0   0 0.0.0.0:9999      0.0.0.0:*      LISTEN
 
 
 
-![2-配置server端的监听端口](/2-配置server端的监听端口.png)
+![2-配置server端的监听端口](/assets/2-配置server端的监听端口.png)
 
 ​              12-3  server 侧的TCP端口监听方案
 
