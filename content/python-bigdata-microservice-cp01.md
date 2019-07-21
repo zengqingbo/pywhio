@@ -1,9 +1,9 @@
 ---
-title: "Python BigData X CP02"
+title: "Python BigData MicroService CP01"
 cover: "2.jpg"
 category: "python"
 date: "2019-07-20"
-slug: "python-bigdata-x-cp02"
+slug: "python-bigdata-MicroService-cp01"
 tags:
 ---
 
@@ -35,9 +35,9 @@ tags:
 
 
 
-![大数据的4V 难题](/assets/python-bigdata-x/cp02/大数据的4V 难题.jpg)
+![大数据的4V 难题](/assets/python-bigdata-microservice/cp01/大数据的4V 难题.jpg)
 
-                                 图 1  大数据的4V难题
+图 1  大数据的4V难题
 
 随着5G，物联网和工业4.0的普及，大数据人才需求量日益大增， 但是大数据处理和我们传统的数据处理存在很大的不同。 而大数据处理的第一个难题就是velocity 难题。也就是说，我们需要非常高效的处理数据。
 
@@ -67,9 +67,9 @@ tags:
 
 选定了方案以后， 当时一位好朋友建议我们使用celery作为分布式计算的框架，因为这位好朋友正在研究Scrapy 技术。
 
-![figure2 Queue component](/assets/python-bigdata-x/cp02/figure2 Queue component.png)
+![figure2 Queue component](/assets/python-bigdata-microservice/cp01/figure2 Queue component.png)
 
-                                                图2 分布式Queue组件
+图2 分布式Queue组件
 
 而对于我们当时的技术水平来说，要应用这样的框架，真是力不从心。因为前期我们用python写的ETL代码，基本上是按照紧密耦合的方式进行处理的，而是要celery就意味着需要把这些ETL代码分离成为异步的计算组件。如何下手就非常的困难， 所以我们就在GIT上进行寻找，最好幸运的发现了一个项目。
 
@@ -103,7 +103,7 @@ tags:
 
 我们将要学习的框架见下图：
 
-![figure1 ETL component](/assets/python-bigdata-x/cp02/figure1 ETL component.png)
+![figure1 ETL component](/assets/python-bigdata-microservice/cp01/figure1 ETL component.png)
 
 在这本书的学习中，我们将会分析几个真实的案例，并透过这个云原生的微服务方案来实现我们的应用。
 
