@@ -7,7 +7,7 @@ slug: "python-bigdata-x-cp02"
 tags:
 ---
 
-#  大数据微服务 第一章 如何进入大数据的处理的世界
+# 大数据微服务 第一章 如何进入大数据的处理的世界
 
 ## 1         背景介绍
 
@@ -35,7 +35,7 @@ tags:
 
 ​    
 
-![大数据的4V 难题](/assets/python-bigdata-x/cp02/大数据的4V 难题.jpg)
+![大数据的4V 难题](/assets/python-bigdata-x/cp02/1.jpg)
 
 ​                                        图 1  大数据的4V难题
 
@@ -67,7 +67,7 @@ tags:
 
 选定了方案以后， 当时一位好朋友建议我们使用celery作为分布式计算的框架，因为这位好朋友正在研究Scrapy 技术。
 
-![figure2 Queue component](/assets/python-bigdata-x/cp02/figure2 Queue component.png)
+![figure2 Queue component](/assets/python-bigdata-x/cp02/1.png)
 
 ​                                                图2 分布式Queue组件
 
@@ -103,7 +103,7 @@ tags:
 
 我们将要学习的框架见下图：
 
-![figure1 ETL component](/assets/python-bigdata-x/cp02/figure1 ETL component.png)
+![figure1 ETL component](/assets/python-bigdata-x/cp02/1.png)
 
 在这本书的学习中，我们将会分析几个真实的案例，并透过这个云原生的微服务方案来实现我们的应用。
 
